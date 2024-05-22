@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Navigation Styles */
+nav {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* Section Styles */
+.section {
+  position: relative;
+  text-align: center;
+  padding: 100px 20px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transition: background-image 0.5s ease;
+}
+
+.section .content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading Styles */
+h1, h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Link Styles */
+a {
+  color: #007BFF;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Background Images and Transitions */
+#home {
+  background-image: url('https://source.unsplash.com/1600x900/?technology');
+}
+
+#about {
+  background-image: url('https://source.unsplash.com/1600x900/?coding');
+}
+
+#projects {
+  background-image: url('https://source.unsplash.com/1600x900/?programming');
+}
+
+#skills {
+  background-image: url('https://source.unsplash.com/1600x900/?developer');
+}
+
+#contact {
+  background-image: url('https://source.unsplash.com/1600x900/?office');
+}
+
+/* Hover Effect */
+.section:hover {
+  background-size: 110%; /* Increase size on hover */
+}
